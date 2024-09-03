@@ -1,0 +1,18 @@
+2024-02-29T03:21:39.104054200 |ashish11 |create table student (id bigint, name varchar(200), email varchar(300), gpa decimal);
+2024-02-29T03:21:51.261017100 |ashish11 |select * from student;
+2024-02-29T03:22:32.185567600 |ashish11 |insert into student (id, name, email, gpa) value (1, ashish, a_b@c.com, 2.3);
+2024-02-29T03:22:43.818383700 |ashish11 |select * from student;
+2024-02-29T03:30:14.781341900 |ashish11 |select * from student;
+2024-02-29T03:30:35.567051200 |ashish11 |select name, gpa from student;
+2024-02-29T03:31:18.117190200 |ashish11 |rollback transaction;
+2024-02-29T03:57:31.603363700 |ashish11 |select * from student;
+2024-02-29T04:00:42.268854 |ashish11 |begin transaction;
+2024-02-29T04:00:49.057700 |ashish11 |select * from student;
+2024-02-29T04:02:39.366669400 |ashish11 |begin transaction;
+2024-02-29T11:58:30.000330 |ashish11 |select * from student;
+2024-02-29T11:58:37.600112400 |ashish11 |begin transaction;
+2024-02-29T12:16:33.111480 |ashish11 |select * from student;
+2024-02-29T12:16:40.888950300 |ashish11 |begin transaction;
+2024-02-29T12:17:10.200654100 |ashish11 |insert into student (id, name, email, gpa) value (3, peter, p_p@c.com, 2.0);
+2024-02-29T13:09:01.347806500 |ashish11 |begin transaction;
+2024-02-29T13:09:10.898799400 |ashish11 |commit transaction;

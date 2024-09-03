@@ -1,0 +1,4 @@
+id,Long|name,String|email,String|gpa,Float
+1| ashish| a_b@c.com| 2.3
+2| dummyuser| d_u@c.com| 1.3
+3| peter| pb@c.com| 2.2

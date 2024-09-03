@@ -1,0 +1,4 @@
+id,Long|name,String|course_taught,String|experience,Int
+1| mike| CSCI 3901| 22
+2| saurabh| CSCI 5408| 15
+3| tushar| csci5309| 17
